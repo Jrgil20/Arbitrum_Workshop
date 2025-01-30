@@ -12,7 +12,7 @@ module.exports = {
       chainId: 1337,
     },
     arbitrumSepolia: {
-      url: 'https://sepolia-rollup.arbitrum.io/rpc',
+      url: 'https://arb-sepolia.g.alchemy.com/v2/r-57hgL8Mz_5gUs77z3iSmf3iXhV6LqE',
       chainId: 421614,
       //accounts: [SEPOLIA_TESTNET_PRIVATE_KEY]
     },
