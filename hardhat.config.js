@@ -1,4 +1,5 @@
 require('@nomicfoundation/hardhat-toolbox');
+require('dotenv').config();
 
 // NEVER record important private keys in your code - this is for demo purposes
 const SEPOLIA_TESTNET_PRIVATE_KEY = '';
@@ -14,7 +15,7 @@ module.exports = {
     arbitrumSepolia: {
       url: 'https://arb-sepolia.g.alchemy.com/v2/r-57hgL8Mz_5gUs77z3iSmf3iXhV6LqE',
       chainId: 421614,
-      //accounts: [SEPOLIA_TESTNET_PRIVATE_KEY]
+      accounts: [process.env.privateKey]
     },
     arbitrumOne: {
       url: 'https://arb1.arbitrum.io/rpc',
